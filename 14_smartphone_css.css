@@ -1,0 +1,141 @@
+.clear {
+	clear:both;
+}
+
+.screen {
+	background-color: #E0FFFF;
+	min-width: 790px;
+	border: 5px solid #4433FF;
+	padding: 20px;
+}
+.interval {	
+	background-color: #A0BBFF;
+	border: 5px solid #4433FF;
+	color: blue;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 60px;
+}
+
+.question-block {
+	padding-top: 10px;
+}
+
+.question-block .col-1 {
+	float: left;
+	width: 70%;
+}
+.question-block .col-2 {
+	float: left;
+	width: 30%;
+}
+
+.note {
+	background-color: #E0BBFF;
+	border: 5px solid #4433FF;
+	color: blue;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 60px;
+}
+
+.direct {
+	margin-left: 10px;
+	background-color: #A0DDFF;
+	border: 5px solid #4433FF;
+	color: blue;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 60px;
+}
+.input-field{
+	background-color: #E0BBFF;
+	font-size: 55px;
+    width: 50%;
+}
+.input {
+	font-size: 60px;
+	border: 5px solid #4433FF;
+	color: blue;
+	background-color: #E0BBFF;
+	color: blue;
+	text-align: center;
+}
+
+.answer {
+	background-color: #A0DDFF;
+	border: 5px solid #4433FF;
+	color: blue;
+	margin-left: 10px;
+	text-align: center;
+	font-size: 60px;
+}
+
+.note-btn {
+	float:left;
+	
+	height:130px;
+	width: 130px;
+	background-color: #FFDAB9;
+	align:center;
+	border: 5px solid #4433FF;
+	color: blue;
+	margin: 20px;
+	text-align: center;
+	font-size: 60px;
+}
+
+.rand-button {
+	width: 210px!important;
+	height: 200px!important;
+	cursor: crosshair;
+}
+
+.cmd-btn {
+	width: 200px;
+	height: 150px;
+	background: #8A2BE2;
+	-moz-border-radius: 80px;
+	-webkit-border-radius: 80px;
+	border-radius: 80px;
+	border: 5px solid #4433FF;
+	color:white;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+
+/* кнопки из jquery
+#buttonBlock button {
+	margin: 3px;
+	
+	top: 1115px;
+ 	left: 510px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

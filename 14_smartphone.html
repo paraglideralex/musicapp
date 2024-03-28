@@ -1,110 +1,124 @@
-<script type="text/javascript" src="lib/jquery.min.js"></script>
-<script src="11r.js"></script>
-<link rel="stylesheet" href="14_smartphone_css.css">       
-<div class="screen">
+<!DOCTYPE html>
+<html lang="ru">
 
-<!-- кнопочки из jquery -->
-<!-- <div id="buttonBlock">
-</div> -->
-<!--  -->
+<head>
+	<script type="text/javascript" src="lib/jquery.js"></script>
+	
+	<link rel="stylesheet" href="14_smartphone_css.css">     
+</head>  
 
-<div class="interval">
-Интервал
+<body>
+
+	<div class="screen">
+
+		<div class="initial" id="initial">
+		<span id="question"></div>
+
+	<!-- кнопочки из jquery -->
+	<div id="buttonBlock">
+	</div>
+	<!--  -->
+	<p id="reaction"></p>
 </div>
 
-<div class="question-block">
+	<div class="interval">
+	Интервал
+	</div>
+
+	<div class="question-block">
+		<div class="col-1">
+			<div class="note">
+				Нота
+			</div>
+		</div>
+		<div class="col-2">
+			<div class="direct">
+				Куда
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div class="question-block">
 	<div class="col-1">
-		<div class="note">
-			Нота
+		<div class="input">
+			Ответ: <input class="input-field" name="just" placeholder="Ответ" type="text" required />
 		</div>
-	</div>
+		</div>
+
 	<div class="col-2">
-		<div class="direct">
-			Куда
+		<div class="answer">
+			ans
 		</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<!--  -->
+	<div class="allButtons question-block">
+	<div class="allnote-btns col-1">
+
+	<div class="note-btns1row">
+	<div class="C note-btn">C
+	<!-- <input type="button" value="С" onClick='location.href="input"'>C -->
+	</div>
+
+	<div class="F note-btn">
+	F
+	</div>
+
+	<div class="B note-btn">
+	B
 	</div>
 	<div class="clear"></div>
-</div>
-
-<div class="question-block">
-<div class="col-1">
-	<div class="input">
-		Ответ: <input class="input-field" name="just" placeholder="Ответ" type="text" required />
-	</div>
 	</div>
 
-<div class="col-2">
-	<div class="answer">
-		ans
+	<div class="note-btns2row">
+	<div class="C note-btn">
+	D
 	</div>
+
+	<div class="F note-btn">	
+	G
+	</div>
+
+	<div class="B note-btn">
+	#
 	</div>
 	<div class="clear"></div>
-</div>
+	</div>
 
-<!--  -->
-<div class="allButtons question-block">
-<div class="allnote-btns col-1">
+	<div class="note-btns3row">
+	<div class="C note-btn">
+	E
+	</div>
 
-<div class="note-btns1row">
-<div class="C note-btn">C
-<!-- <input type="button" value="С" onClick='location.href="input"'>C -->
-</div>
+	<div class="F note-btn">	
+	A
+	</div>
 
-<div class="F note-btn">
-F
-</div>
+	<div class="B note-btn">
+	b
+	</div>
+	<div class="clear"></div>
+	</div>
 
-<div class="B note-btn">
-B
-</div>
-<div class="clear"></div>
-</div>
+	</div>
 
-<div class="note-btns2row">
-<div class="C note-btn">
-D
-</div>
-
-<div class="F note-btn">	
-G
-</div>
-
-<div class="B note-btn">
-#
-</div>
-<div class="clear"></div>
-</div>
-
-<div class="note-btns3row">
-<div class="C note-btn">
-E
-</div>
-
-<div class="F note-btn">	
-A
-</div>
-
-<div class="B note-btn">
-b
-</div>
-<div class="clear"></div>
-</div>
-
-</div>
-
-<div class="comButtons col-2">
+	<div class="comButtons col-2">
 
 
-<div id="rand"><button class="rand-button cmd-btn" onClick="location.reload()">Рандом</button></div>
-<div class="cmd-btn ans">Ответ</div>
-<div class="cmd-btn clr">Сброс</div>
+	<div id="rand"><button class="rand-button cmd-btn" onClick="location.reload()">Рандом</button></div>
+	<div class="cmd-btn ans">Ответ</div>
+	<div class="cmd-btn clr">Сброс</div>
 
-</div>
-<div class="clear"></div>
-</div>
+	</div>
+	<div class="clear"></div>
+	</div>
 
 
+	</div>
 
-<!--  -->
+	<script type="text/javascript" src="11r.js"></script>
 
-</div>
+</body>

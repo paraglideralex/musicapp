@@ -2,16 +2,20 @@
 	clear:both;
 }
 
+.initial{
+	border: 2px solid #515069;
+}
+
 .screen {
 	background-color: #E0FFFF;
 	min-width: 790px;
-	border: 5px solid #4433FF;
+	border: 2px solid #575481;
 	padding: 20px;
 }
 .interval {	
 	background-color: #A0BBFF;
-	border: 5px solid #4433FF;
-	color: blue;
+	border: 2px solid #433e72;
+	color: rgb(0, 0, 121);
 	text-align: center;
 	vertical-align: middle;
 	font-size: 60px;
@@ -32,7 +36,7 @@
 
 .note {
 	background-color: #E0BBFF;
-	border: 5px solid #4433FF;
+	border: 2px solid #433e72;
 	color: blue;
 	text-align: center;
 	vertical-align: middle;
@@ -42,7 +46,7 @@
 .direct {
 	margin-left: 10px;
 	background-color: #A0DDFF;
-	border: 5px solid #4433FF;
+	border: 5px solid #433e72;
 	color: blue;
 	text-align: center;
 	vertical-align: middle;
@@ -65,7 +69,7 @@
 .answer {
 	background-color: #A0DDFF;
 	border: 5px solid #4433FF;
-	color: blue;
+	color: #433e72;
 	margin-left: 10px;
 	text-align: center;
 	font-size: 60px;
@@ -79,7 +83,7 @@
 	background-color: #FFDAB9;
 	align:center;
 	border: 5px solid #4433FF;
-	color: blue;
+	color: #433e72;
 	margin: 20px;
 	text-align: center;
 	font-size: 60px;
